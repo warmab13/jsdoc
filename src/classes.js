@@ -26,6 +26,9 @@ class Programmer{
     }
 }
 
+/**
+ * Know more in: {@link Programmer}
+ */
 const programmerOne = new Programmer({fullname: "Alonso Salcido"}, 'javascript')
 const programmerTwo = new Programmer({fullname: "Joe Ryan"}, 'go')
 
