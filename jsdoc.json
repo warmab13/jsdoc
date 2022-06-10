@@ -1,0 +1,17 @@
+{
+    "plugins": [],
+    "source": {
+        "include": ["src"],
+        "includePattern": ".{js,jsx}$",
+        "excludePattern": "(node_modules|bower_components|lib|docs)"
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts":{
+        "recurse": "true",
+        "destination": "./doc"
+    }
+
+}
