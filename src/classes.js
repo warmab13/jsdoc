@@ -1,9 +1,15 @@
 /**
  * Class to create Programmer
+ * @example 
+ * const newProgrammer = new Programmer({fullname: 'Alonso Salcido'}, 'javascript')
+ * newProgrammer.getInfo();
+ * @see https://github.com/warmab13/jsdoc
+ * 
+ * @todo Make rest methods on class
  */
 class Programmer{
     /**
-     * @param {{fullname: string}} user User's Information
+     * @param {User} user User's Information
      * @param {string} language A programming language
      */
     constructor(user, language){
