@@ -2,8 +2,8 @@
     "plugins": [],
     "source": {
         "include": ["src"],
-        "includePattern": ".{js,jsx}$",
-        "excludePattern": "(node_modules|bower_components|lib|docs)"
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules|docs)"
     },
     "templates": {
         "cleverLinks": false,
@@ -11,7 +11,7 @@
     },
     "opts":{
         "recurse": "true",
-        "destination": "./doc"
+        "destination": "./docs"
     }
 
 }

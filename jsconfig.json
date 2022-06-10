@@ -1,0 +1,16 @@
+//Typescript configuration file
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+}
+
+//Javascript configuration 
+// {
+//     "compilerOptions": {
+//       "checkJs": true
+//     },
+//     "exclude": ["node_modules", "**/node_modules/*"]
+// }
