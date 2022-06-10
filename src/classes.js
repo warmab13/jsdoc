@@ -6,6 +6,7 @@
  * @see https://github.com/warmab13/jsdoc
  * 
  * @todo Make rest methods on class
+ * @tutorial first_tutorial
  */
 class Programmer{
     /**

@@ -1,5 +1,5 @@
 /**
- * My math library
+ * My math library - Learn More {@tutorial second_tutorial}
  * @module Math
  */
 /**
