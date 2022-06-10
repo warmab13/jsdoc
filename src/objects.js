@@ -1,6 +1,6 @@
 /**
  * Person Object
- * @type {{id:Number, firstName:String, lastName:string, age:Number}}
+ * @type {{id: Number, firstName: string, lastName: string, age: Number}}
  */
 const person1 = {
     id:1,
@@ -10,7 +10,7 @@ const person1 = {
 }
 /**
  * Person Object
- * @type {{id:Number | string, firstName:String, lastName:string, age: number|string}}
+ * @type {{id: number | string, firstName: string, lastName: string, age: number | string}}
  */
 const person2 = {
     id:1,

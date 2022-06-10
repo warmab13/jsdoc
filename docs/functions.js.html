@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: index.js</title>
+    <title>JSDoc: Source: functions.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: index.js</h1>
+    <h1 class="page-title">Source: functions.js</h1>
 
     
 
@@ -26,12 +26,24 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>
-/**
- * This is th fullname of the user
- * @type {string}
+            <pre class="prettyprint source linenums"><code>/**
+ * Add Two Numbers
+ * @param {number} n1 First Number
+ * @param {number} n2 Second Number
+ * @returns {number} Total Result
  */
-const fullName = "Alonso Salcido"</code></pre>
+function add(n1=2, n2=3){
+    return n1 + n2;
+}
+
+/**
+ * Add two number and returns a string
+ * @param {number} n1 First Number
+ * @param {number} n2 Second Number
+ * @returns {string} Result on string
+ */
+
+const addTwo = (n1, n2)=> `The result is: ${n1+n2}`</code></pre>
         </article>
     </section>
 
