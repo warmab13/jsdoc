@@ -2,6 +2,8 @@
 
 [Tutorial Markdown](https://tutorialmarkdown.com/sintaxis)  
 [VsCodeExtension: Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)  
+[DevHints JSDoc](https://devhints.io/jsdoc)  
+
 # Project Setup
 ***
 ### Run project
