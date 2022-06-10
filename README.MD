@@ -3,6 +3,7 @@
 [Tutorial Markdown](https://tutorialmarkdown.com/sintaxis)  
 [VsCodeExtension: Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)  
 [DevHints JSDoc](https://devhints.io/jsdoc)  
+[Publish Repository as a wiki](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser)
 
 # Project Setup
 ***
