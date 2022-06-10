@@ -14,6 +14,7 @@
     "docdash": "^1.2.0",
     "jaguarjs-jsdoc": "^1.1.0",
     "jsdoc": "^3.6.10",
-    "tui-jsdoc-template": "^1.2.2"
+    "tui-jsdoc-template": "^1.2.2",
+    "braintree":"https://github.com/braintree/jsdoc-template.git"
   }
 }

@@ -15,3 +15,20 @@ this is a script inside package.json scripts section, this command will generate
 ### Setup Wokspace
 You can use the ___jsconfig.json___ file to configure TS/Check and JS/Check on your files.
 
+***
+### To install a template without NPM
+You can set as a package name on package json:
+``` json
+   "dependencies": {
+        "braintree":"https://github.com/braintree/jsdoc-template.git"
+    }
+```
+__braintree__ is a custom name to add that package
+this will clone the repository as a package and you can use as a simple template on __jsdoc.json__
+```  javascript
+    "opts":{
+        "recurse": "true",
+        "destination": "./docs",
+        "template": "node_modules/braintree"
+    }   
+```
